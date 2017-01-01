@@ -1,6 +1,8 @@
-var App = function() {
-  return "<h1>Woop</h1>";
-};
+import React, {Component} from 'react';
 
-module.exports = App;
-
+class App extends Component {
+  render() {
+    return (<h1>ooohh yehh</h1>);
+  }
+}
+export default App;
