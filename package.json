@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm -g webpack-dev-server --content-base src --inline --hot"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
     "webpack": "^1.14.0"
   },
   "devDependencies": {
-    "webpack": "^1.14.0"
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
   }
 }
